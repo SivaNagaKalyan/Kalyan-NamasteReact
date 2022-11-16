@@ -1,0 +1,42 @@
+<!--Hello World Program using html.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <div>
+        <h1>Hello World</h1>
+    </div>
+    <div id="javascript">
+
+    </div>
+    <div id="react">
+
+    </div>
+    <!-- Hello World Using JavaScript-->
+    <script>
+        const title = document.createElement("h1");
+        const root = document.getElementById("javascript");
+        title.innerText = "Hello World!";
+        root.appendChild(title);
+    </script>
+    <!-- React CDN-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    </script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script>
+    <!--Hello World Using React-->
+    <script>
+        const reactTitle = React.createElement("h1",{id:title},"Hello World!!");
+        const reactRoot = ReactDOM.createRoot(document.getElementById("react"));
+        reactRoot.render(reactTitle)
+    </script>
+</body>
+</html>
+
+</body>
+</html> -->
