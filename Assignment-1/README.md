@@ -17,7 +17,7 @@ A cross-origin request is a request for a resource (e.g. style sheets, iframes, 
 # Q5. Difference between production build and development build?
 The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds.
 The production build, on the other hand, runs in production mode which means this is the code running on your client's machine. The production build runs uglify and builds your source files into one or multiple minimized files.
-# Async and Defer?
+# Q6.Async and Defer?
 Both async and defer have one common thing: downloading of such scripts doesn’t block page rendering. So the user can read page content and get acquainted with the page immediately.
 But there are also essential differences between them:
 
