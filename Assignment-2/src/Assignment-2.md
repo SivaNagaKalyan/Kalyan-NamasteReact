@@ -1,4 +1,4 @@
-# Q1.What is node?
+# Q1.What is npm?
 npm is a package manager where you can get many packages required for your development.for suppose there is tailwind css package that you can get from npm that will ease your css work. There is chalk package sized about 4kb allows you to style your console messages.Take amazon as example and if you are  seller you will give you item to amazon and it will wrap that up and sell it to the buyer same as with npm as npm acts as amazon and buyers will get packages from npm and sellers as developers contributes to those packages.
 # Q2.What is parcel/webpack?
 parcel or webpack are bundlers that helps use to ease our development process by providing many more important services like hot relading ,tree shaking,dev server etc..It also minifies our final application to reduce the size with clearing some unused parts in our development folder.
